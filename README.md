@@ -265,6 +265,12 @@ When deploying on Netlify, the direct call to NASA's NEO API may result in a COR
 
 This is expected behavior due to NASA API limitations on client-side requests.
 
+### ✅ Production Solution  
+Use a Netlify Function to proxy the request:
+- Proxy file: `netlify/functions/getNeos.js`
+- Call from frontend: `fetch("/.netlify/functions/getNeos")`
+- Store `NASA_API_KEY` in Netlify dashboard environment variables
+
 
 
 ## 📞 Support
