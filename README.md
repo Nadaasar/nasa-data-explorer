@@ -260,6 +260,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - The open-source community for the amazing tools and libraries
 - All the space enthusiasts who make projects like this worthwhile
 
+##  🚧 Known Issues
+When deploying on Netlify, the direct call to NASA's NEO API may result in a CORS error or connection failure (⚠️ API Connection Lost).
+
+This is expected behavior due to NASA API limitations on client-side requests.
+
+
+
 ## 📞 Support
 
 For support, please open an issue in the GitHub repository or contact the development team.
